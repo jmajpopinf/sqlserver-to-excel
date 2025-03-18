@@ -1,0 +1,13 @@
+INSTRUCCIONES PARA CREACION DEL PROYECTO DESDE LA CONSOLA
+
+dotnet new console -n ExportadorExcel
+cd ExportadorExcel
+dotnet add package ClosedXML
+dotnet add package Dapper
+dotnet add package System.Data.SqlClient
+
+
+
+"ConnectionStrings": {
+    "BarConnection": "Server=PCMANU\\SQLEXPRESS; Database=Bar; Trusted_Connection=True; TrustServerCertificate=True; MultipleActiveResultSets=True"
+}
