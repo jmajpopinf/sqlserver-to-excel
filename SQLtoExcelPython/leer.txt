@@ -1,0 +1,24 @@
+INSTRUCCIONES PARA CREAR PROYECTO
+
+CREAR UN ENTORNO VIRTUAL
+
+1.Crear entorno virtual: 
+python -m venv bdtoexcel
+
+2.Activar entorno virtual: 
+bdtoexcel\Scripts\activate
+
+3.Desactivar entorno virtual:
+deactivate
+
+INTALAR DEPENDENCIAS:
+
+1. Comando de instalacion: 
+pip install pyodbc openpyxl pandas
+
+EJECUTAR CODIGO
+python app.py
+
+EXTRA:
+Guardar las dependencias en un archivo: pip freeze > requirements.txt
+Instalar dependencias desde requirements.txt (Opcional): pip install -r requirements.txt
